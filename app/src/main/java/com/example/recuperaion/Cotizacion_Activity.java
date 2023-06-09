@@ -52,7 +52,7 @@ public class Cotizacion_Activity extends AppCompatActivity     {
         lblNombre.setText("Nombre Cliente: "+nombre.toString());
 
         int folio;
-        int numero = (int)(Math.random()*10+1);
+        int numero = (int)(Math.random()*10+ 1);
 
         lblFolio.setText("Folio:"+numero);
 
