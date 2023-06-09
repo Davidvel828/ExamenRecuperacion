@@ -2,7 +2,7 @@ package com.example.recuperaion;
 
 import java.util.Random;
 
-public class cotizacion {
+public class cotizacion     {
 
     private int folio;
     private String descripcion;
