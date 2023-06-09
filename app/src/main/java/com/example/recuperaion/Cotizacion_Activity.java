@@ -41,7 +41,7 @@ public class Cotizacion_Activity extends AppCompatActivity     {
     private cotizacion coti = new cotizacion(0,"", 0.0,0.0,0);
     DecimalFormat decimalFormat = new DecimalFormat("#.##");
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cotizacion);
 
@@ -57,12 +57,12 @@ public class Cotizacion_Activity extends AppCompatActivity     {
         lblFolio.setText("Folio:"+numero);
 
 
-        btnCalcular.setOnClickListener(new View.OnClickListener() {
+        btnCalcular.setOnClickListener(new View.OnClickListener()  {
             @Override
             public void onClick(View v) {
 
                 if(txtDescripcion.getText().toString().equals("") || txtValor.getText().toString().equals("") || txtPorcentaje.getText().toString().equals(""))
-                {
+                 {
                     Toast.makeText(getApplicationContext(),"No deje campos vacios",Toast.LENGTH_SHORT).show();
                 }
                 else {
