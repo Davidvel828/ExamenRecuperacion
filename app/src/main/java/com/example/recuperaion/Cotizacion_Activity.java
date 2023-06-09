@@ -16,7 +16,7 @@ import android.widget.Toast;
 import java.text.DecimalFormat;
 import java.util.Random;
 
-public class Cotizacion_Activity extends AppCompatActivity {
+public class Cotizacion_Activity extends AppCompatActivity     {
 
     private TextView lblNombre;
     private TextView lblFolio;
