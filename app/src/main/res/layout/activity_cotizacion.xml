@@ -17,7 +17,7 @@
         android:textAlignment="center"
         android:id="@+id/lblNombre"
         app:layout_constraintBottom_toTopOf="@id/lblFolio"
-        ></TextView>
+        ></TextView >
 
     <TextView
         android:layout_width="match_parent"

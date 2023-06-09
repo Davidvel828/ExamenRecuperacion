@@ -22,7 +22,7 @@
         android:hint="Nombre"
         android:id="@+id/txtNombre"
         app:layout_constraintTop_toBottomOf="@id/imgLogo"
-        ></EditText>
+        ></EditText >
     
     <Button
         android:layout_width="match_parent"
@@ -30,6 +30,6 @@
         android:text="Ir cotizacion"
         app:layout_constraintTop_toBottomOf="@id/txtNombre"
         android:id="@+id/btnIniciar"
-        ></Button>
+        ></Button >
 
 </androidx.constraintlayout.widget.ConstraintLayout>
